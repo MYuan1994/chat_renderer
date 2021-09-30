@@ -1,0 +1,40 @@
+aside{
+    width: 55px;
+    background: #1e76a2;
+    -webkit-app-region: drag;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+  }
+  .menu{
+    flex:1;
+    margin-top: 20px;
+  }
+  .setting{
+    height: 140px;
+  }
+  
+  aside menu{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  menu li{
+    color: #ddd;
+    font-size: 23px;
+    height: 40px;
+    margin: 13px 0;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+  }
+  menu li a{
+    color: #ddd;
+  }
+  menu li:hover{
+    color: #FFF;
+    text-shadow: 0 0 2px #FFF;
+  }
+  menu li:active{
+    color: #22405a;
+    text-shadow: 0 0 5px #fff;
+  }

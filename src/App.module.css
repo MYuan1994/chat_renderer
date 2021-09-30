@@ -1,0 +1,77 @@
+/* .app {
+  text-align: center;
+  background: rgb(16, 145, 168);
+  width: 100vw;
+  height: 100vh;
+}
+
+.appHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1{
+  font-family: "Slidefu";
+  font-family: "shouxie";
+  font-size: 50px;
+}
+
+.appLogo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .appLogo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.robotList {
+	width: 98vw;
+  height: calc(100vh - 150px);
+  margin-left: 1vw;
+  overflow-y: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 20px;
+} */
+
+.app{
+  width: 100vw;
+  height: 100vh;
+  background: rgba(214, 214, 214, 0);
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+
+article{
+  flex: 1;
+  background: #EEE;
+  display: flex;
+  flex-direction: column;
+
+}
+.mainContext{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+.mainContext nav{
+  width: 200px;
+  border-right: 1px solid #DDD;
+}
+.mainContext main{
+  flex: 1;
+
+}
+.toolBar{
+  /* background: #ddd;
+  height: 28px; */
+}
+
+

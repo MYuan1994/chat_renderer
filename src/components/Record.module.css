@@ -1,0 +1,57 @@
+.record{
+    margin: 24px 9px;
+    display: flex;
+}
+
+.other{
+    flex-direction: row;
+}
+
+.mine{
+    flex-direction: row-reverse;
+}
+
+.msg{
+    border-radius: 5px;
+    box-shadow: 0 0 3px #aaa;
+    margin: 0 9px;
+    padding: 6px 9px;
+    min-height: 19px;
+    max-width: 350px;
+    word-break: break-word;
+    font-size: 15px;
+}
+
+.other .msg{
+    background: #b4d1f7;
+}
+
+.mine .msg{
+    background: #FFF;
+}
+
+
+
+.icon{
+    /* background: #AAA; */
+    /* border: 1px solid rgb(34, 97, 192); */
+    height: 40px;
+    width: 40px;
+    border-radius: 2px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.icon img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+}
+
+.status{
+    color: cornflowerblue;
+    align-self: center;
+}
+
+.fa-exclamation-circle{
+    color: crimson;
+}
